@@ -225,7 +225,6 @@ body{
   background:var(--grad);opacity:0.28;
 }
 
-
 @media(min-width:768px){
   .about-card{
     padding:28px 32px;
@@ -434,6 +433,7 @@ body{
 }
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
 
+/* ══ FOOTER ══ */
 .footer{margin-top:60px;text-align:center;padding-bottom:24px;}
 .footer-text{
   font-family:'Share Tech Mono',monospace;
@@ -446,19 +446,41 @@ body{
 
 @media(min-width:768px){
   .page{
-    max-width:780px;
-    padding:0 40px 100px;
+    max-width:900px;
+    padding:0 48px 100px;
   }
+  .name{font-size:3rem;letter-spacing:6px;}
+  .subtitle{font-size:0.9rem;letter-spacing:4px;}
+  .avatar-wrap{width:160px;height:160px;}
+  .avatar{width:160px;height:160px;}
+  .social-btn{width:68px;height:68px;}
+  .social-btn img{width:34px;height:34px;}
+  .section-title h2{font-size:1.3rem;letter-spacing:4px;}
+  .section-title::before,.section-title::after{font-size:1.1rem;}
+  .about-card{font-size:1.15rem;padding:30px 34px;line-height:1.9;}
+  .skill-row{padding:15px 20px;}
+  .skill-name{font-size:1.1rem;}
+  .skill-pct{font-size:0.88rem;}
+  .skill-icon img{width:30px;height:30px;}
+  .skill-track{height:3px;}
+  .proj-card{padding:18px 20px;}
+  .proj-icon-wrap{width:54px;height:54px;}
+  .proj-icon-wrap img{width:34px;height:34px;}
+  .proj-title{font-size:1.15rem;}
+  .proj-tag{font-size:0.72rem;padding:3px 10px;}
+  .modal{max-width:580px;}
+  .modal-title{font-size:1.3rem;}
+  .modal-desc{font-size:1.05rem;}
+  .footer-text{font-size:0.85rem;}
 }
 @media(min-width:1100px){
   .page{
-    max-width:900px;
+    max-width:1020px;
     padding:0 60px 100px;
   }
-  
   .code-bg{
-    width:280px;
-    color:rgba(148,158,168,0.2);
+    width:300px;
+    color:rgba(148,158,168,0.15);
   }
 }
 </style>
@@ -589,7 +611,7 @@ body{
 <div class="topbar"></div>
 
 <div class="toast" id="toast">Discord скопирован</div>
-  
+
 <div class="modal-overlay" id="modalOverlay" onclick="handleOverlayClick(event)">
   <div class="modal" id="modal">
     <div class="modal-icon-block"><img id="modalIcon" src="" alt=""></div>
