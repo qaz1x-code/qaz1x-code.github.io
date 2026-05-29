@@ -16,9 +16,3 @@
 - проекты открываются в отдельном окне с блюром от моего hyprland
 
 Шрифты: **B612**, **Orbitron**
-
-
-## Связь со мной
-
-**Telegram**  `@BlackNetSicurity`
-**Discord**  `_qaz1x_`
